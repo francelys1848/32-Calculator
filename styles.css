@@ -1,0 +1,62 @@
+body {
+    font-family: helvetica, arial, sans-serif;
+    margin: 2em;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-style: italic;
+    color: rgb(133, 133, 135);
+}
+
+#calculator {
+    display: flex;
+    flex-wrap: wrap;
+    width: 248px;
+    align-items: center;
+    background: rgb(90, 90, 92);
+}
+
+#calculator div {
+    width: 50px;
+    padding: 10px 5px;
+    border: 1px solid rgb(90, 90, 92);
+    margin: 0;
+    text-align: center;
+    background: rgb(133, 133, 135);
+    color: white;
+}
+
+#calculator div#display {
+    width: 240px;
+    padding: 10px 5px;
+    font-size: 2em;
+    background: rgb(90, 90, 92);
+    text-align: right;
+}
+
+#calculator div#zero {
+    width: 112px;
+    padding: 10px 5px;
+}
+
+#calculator .operator,
+#calculator .solve {
+    background: orange;
+}
+
+#calculator .adjust {
+    background: rgb(107, 107, 109);
+}
+
+#calculator div:hover {
+    background: rgb(185, 185, 186);
+}
+
+#calculator div.adjust:hover {
+    background: rgb(133, 133, 135);
+}
+
+#calculator div.operator:hover {
+    background: rgb(203, 126, 5);
+}
